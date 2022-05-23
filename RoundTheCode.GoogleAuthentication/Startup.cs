@@ -35,8 +35,8 @@ namespace RoundTheCode.GoogleAuthentication
                 })
                 .AddGoogle(options =>
                 {
-                    options.ClientId = "74427399325-cm8830jlhjcnl510mm5kvncme2e7si8h.apps.googleusercontent.com";
-                    options.ClientSecret = "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";
+                    options.ClientId = "";
+                    options.ClientSecret = "";
                 });
 
             services.AddControllersWithViews();
